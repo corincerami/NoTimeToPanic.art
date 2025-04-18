@@ -1,14 +1,26 @@
 body {
     background-color: #E1EEBC;
-    color: #328E6E
+    color: #328E6E;
+    font-family: 'Courier New', monospace;
 }
 
 header {
-    font-size: 5rem;
     text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
     font-weight: bold;
 }
 
 header img {
     max-width: 200px;
+}
+
+.comic-cover {
+    text-align: center;
+}
+
+.comic-cover img{
+    max-width: 500px;
 }
