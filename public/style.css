@@ -1,0 +1,14 @@
+body {
+    background-color: #E1EEBC;
+    color: #328E6E
+}
+
+header {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+header img {
+    max-width: 200px;
+}
