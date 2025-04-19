@@ -17,10 +17,21 @@ header img {
     max-width: 200px;
 }
 
-.comic-cover {
+.flex-container {
+    display: flex;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+img {
+    max-width: 100%;
+    max-height: 750px;
     text-align: center;
 }
 
-.comic-cover img{
-    max-width: 500px;
+p {
+    margin: auto 10px;
+    text-align: center;
 }
