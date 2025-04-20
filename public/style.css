@@ -45,8 +45,15 @@ p {
 
 footer {
     margin-top: 50px;
+    text-align: center;
 }
 
 .shop-link {
     margin-top: 10px;
+}
+  
+@media (min-width: 600px) {
+.content-box {
+    margin: 0 200px;
+}
 }
