@@ -30,6 +30,7 @@ header img {
 .content-box {
     background-color: #90C67C;
     border-radius: 10px;
+    border: 2px #328E6E solid;
     padding: 10px;
 }
 
