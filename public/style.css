@@ -1,7 +1,6 @@
 body {
     background-color: #E1EEBC;
-    /* color: #328E6E; */
-    font-family: 'Courier New', monospace;
+    font-family: "Gill Sans", sans-serif;
 }
 
 header {
@@ -47,7 +46,6 @@ img {
 p {
     margin: auto 10px;
     text-align: center;
-    font-weight: 600;
 }
 
 footer {
