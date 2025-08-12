@@ -35,6 +35,8 @@ form {
     border-radius: 10px;
     border: 2px #328E6E solid;
     padding: 10px;
+    margin: auto;
+    max-width: 70ch;
 }
 
 img {
@@ -45,6 +47,7 @@ img {
 p {
     margin: auto 10px;
     text-align: center;
+    font-weight: 600;
 }
 
 footer {
@@ -55,10 +58,10 @@ footer {
 .shop-link {
     margin-top: 10px;
 }
-  
+
 @media (min-width: 600px) {
-    .content-box {
-        margin: 0 200px;
+    .mb10-md {
+        margin-bottom: 10px;
     }
 
     header h1 {
@@ -68,4 +71,9 @@ footer {
 
 .text-center {
     text-align: center;
+}
+
+img.border {
+    border: 2px #328E6E solid;
+    border-radius: 5px;
 }
