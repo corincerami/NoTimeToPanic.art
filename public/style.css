@@ -1,6 +1,5 @@
 body {
     background-color: #E1EEBC;
-    /* color: #328E6E; */
     font-family: 'Courier New', monospace;
 }
 
@@ -20,6 +19,12 @@ header img {
 
 form {
     padding: 10px 0;
+
+    .button {
+        background-color: #90C67C;
+        border-radius: 3px;
+        color: black;
+    }
 }
 
 .flex-container {
