@@ -35,6 +35,10 @@ form {
     flex: 4;
 }
 
+.flex-5 {
+    flex: 5;
+}
+
 .content-box {
     background-color: #90C67C;
     border-radius: 10px;
@@ -70,6 +74,16 @@ footer {
 
     header h1 {
         font-size: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .flex-wrap-sm {
+        flex-wrap: wrap;
+    }
+
+    .mb10-sm {
+        margin-bottom: 10px;
     }
 }
 
