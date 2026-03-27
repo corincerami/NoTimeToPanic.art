@@ -35,10 +35,6 @@ form {
     justify-content: center
 }
 
-.main-content {
-    margin: 0 10%;
-}
-
 .content-box {
     background-color: #90C67C;
     border-radius: 10px;
@@ -95,6 +91,10 @@ footer .notices {
 
 /* widescreen browser */
 @media (min-width: 600px) {
+    .main-content {
+        margin: 0 10%;
+    }
+
     .content-box {
         flex-shrink: 0;
     }
@@ -114,16 +114,16 @@ footer .notices {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .mb10-sm {
+        margin-bottom: 10px;
+    }
 }
 
 /* phone screen size */
 @media (max-width: 600px) {
     .content-box {
         margin-bottom: 20px;
-    }
-
-    .mb10-sm {
-        margin-bottom: 10px;
     }
 
     .mx15p-sm {
