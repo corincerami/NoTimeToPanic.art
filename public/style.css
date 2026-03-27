@@ -11,10 +11,13 @@ header {
 header h1 {
     font-size: 1.6rem;
     font-weight: bold;
+    display: inline-block;
 }
 
 header img {
-    max-width: 200px;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 form {
@@ -29,14 +32,11 @@ form {
 
 .flex-container {
     display: flex;
+    justify-content: center
 }
 
-.flex-4 {
-    flex: 4;
-}
-
-.flex-5 {
-    flex: 5;
+.main-content {
+    margin: 0 10%;
 }
 
 .content-box {
@@ -44,8 +44,12 @@ form {
     border-radius: 10px;
     border: 2px #328E6E solid;
     padding: 10px;
-    margin: auto;
     max-width: 70ch;
+    margin: auto;
+}
+
+.blurb {
+    margin-top: 10px;
 }
 
 img {
@@ -59,31 +63,72 @@ p {
 }
 
 footer {
-    margin-top: 50px;
-    text-align: center;
+    background-color: #90C67C;
+    border: 2px #328E6E solid;
+    margin: 50px -10px -10px -10px;
 }
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer li {
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+}
+
+footer .notices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 0 10%;
+}
+
 
 .shop-link {
     margin-top: 10px;
 }
 
+/* widescreen browser */
 @media (min-width: 600px) {
-    .mb10-md {
-        margin-bottom: 10px;
+    .content-box {
+        flex-shrink: 0;
     }
 
     header h1 {
         font-size: 3rem;
     }
+
+    .ml10-md {
+        margin-left: 10px;
+    }
 }
 
-@media (max-width: 600px) {
+/* narrow browser window */
+@media (max-width: 1700px) {
     .flex-wrap-sm {
+        display: flex;
         flex-wrap: wrap;
+    }
+}
+
+/* phone screen size */
+@media (max-width: 600px) {
+    .content-box {
+        margin-bottom: 20px;
     }
 
     .mb10-sm {
         margin-bottom: 10px;
+    }
+
+    .mx15p-sm {
+        margin-left: 15%;
+        margin-right: 15%
     }
 }
 
