@@ -19,28 +19,27 @@
     </header>
 
     <form action="https://formsubmit.co/c66c8afc47b935d1fb28af4fc875eb75" method="POST" class="text-center">
-      <div>
-        <label for="email-signup">Sign up to be notified when I have new comics coming out</label>
-      </div>
-      <div>
-        <input type="email" placeholder="Email address" name="email-signup" required>
+      <div class="flex-container flex-wrap-sm">
+        <div class="flex mx15p-sm mb10-sm">
+          <label for="email-signup">Sign up to be notified when I have new comics coming out</label>
+        </div>
+        <div class="flex ml10-md">
+          <input type="email" placeholder="Email address" name="email-signup" required>
 
-        <input type="submit" value="Subscribe" class="button" />
+          <input type="submit" value="Subscribe" class="button" />
+        </div>
       </div>
     </form>
 
-    <div class="flex-container flex-wrap-sm">
-        <div class="content-box mb10-sm">
-          <div class="flex-container">
-            <div class="flex-4 text-center mb10-md">
-              <a href="https://corincerami.gumroad.com/l/fakie">
-                <img src="public/fakie-cover.png" alt="Cover of the graphic novel Fakie, featuring a cartoony Octopus character skateboarding while a lovestruck Squid watches from his food truck" class="border"/>
-              </a>
-            </div>
-            <p class="flex-4 text-center">Fakie is a full-color LGBTQ graphic novel about learning to skateboard for the first time as a 30-something.</p>
+    <div class="flex-container flex-wrap-sm main-content">
+        <div class="content-box">
+          <div class="text-center">
+            <a href="https://corincerami.gumroad.com/l/fakie">
+              <img src="public/fakie-cover.png" alt="Cover of the graphic novel Fakie, featuring a cartoony Octopus character skateboarding while a lovestruck Squid watches from his food truck" class="cover border"/>
+            </a>
           </div>
-          <p>
-            Gus runs a food truck and sells hot food to hungry skaters at the local skate park. Despite all the time he spends watching other people shred, he never actually learned to skateboard. When his old friend Eduardo moves back to town, it gives Gus the motivation he needs to finally pick up a board and learn.
+          <p class="blurb">
+            Fakie is a full-color LGBTQ graphic novel about learning to skateboard for the first time as a 30-something. Gus runs a food truck and sells hot food to hungry skaters at the local skate park. Despite all the time he spends watching other people shred, he never actually learned to skateboard. When his old friend Eduardo moves back to town, it gives Gus the motivation he needs to finally pick up a board and learn.
           </p>
           <p class="shop-link">
             <a href="https://corindarosa.gumroad.com/">Buy Fakie on Gumroad</a>
@@ -48,13 +47,10 @@
         </div>
 
         <div class="content-box">
-          <div class="flex-container">
-            <div class="flex-4 text-center mb10-md">
-              <img src="public/how-to-start-a-union-cover.png" alt="Cover of the comic How to Start a Union, featuring a cartoon Ant telling readers that they should organize their workplace" class="border"/>
-            </div>
-            <p class="flex-4 text-center">How to Start a Union is a mini-comic that aims to teach readers the basics of unionizing.</p>
+          <div class="text-center">
+            <img src="public/how-to-start-a-union-cover.png" alt="Cover of the comic How to Start a Union, featuring a cartoon Ant telling readers that they should organize their workplace" class="cover border"/>
           </div>
-          <p>
+          <p class="blurb">
             Topics covered in this comic include how to begin the process of organizing your coworkers, what the practical steps are to unionizing, and things to expect from your boss along the way.
           </p>
           <p class="shop-link">
@@ -62,17 +58,30 @@
           </p>
         </div>
     </div>
-  </body>
 
-  <footer>
-    <div>
-      Contact me at <a href="mailto:corin@notimetopanic.art">corin@notimetopanic.art</a>
-    </div>
-    <div>
-      <a href="https://corindarosa.gumroad.com/">Buy my comics on Gumroad</a>
-    </div>
-    <div>
-      <a href="https://www.instagram.com/notimetopanic.art/">No Time to Panic on Instagram</a>
-    </div>
-  </footer>
+    <footer>
+      <ul>
+        <li>
+          Contact me at <a href="mailto:corin@notimetopanic.art">corin@notimetopanic.art</a>
+        </li>
+        <li>
+          <a href="https://corindarosa.gumroad.com/">Buy my comics on Gumroad</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/notimetopanic.art/">No Time to Panic on Instagram</a>
+        </li>
+      </ul>
+      <div class="notices">
+        <p>
+          &copy; 2026 Corin DaRosa
+        </p>
+        <p>
+          100% human-made.
+        </p>
+        <p>
+          No part of this website, its content, or any of my work is created using AI.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
