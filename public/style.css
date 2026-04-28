@@ -1,11 +1,14 @@
 body {
-    background-color: #E1EEBC;
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
 }
 
 header {
     text-align: center;
     color: #328E6E;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -22,17 +25,24 @@ header img {
 
 form {
     padding: 10px 0;
+    font-size: 1rem;
+    margin-top: 20px;
 
     .button {
         background-color: #90C67C;
         border-radius: 3px;
         color: black;
     }
+
+    input {
+        font-family: "Darumadrop one", sans-serif;
+    }
 }
 
 .flex-container {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 }
 
 .content-box {
@@ -40,7 +50,7 @@ form {
     border-radius: 10px;
     border: 2px #328E6E solid;
     padding: 10px;
-    max-width: 70ch;
+    
     margin: auto;
 }
 
@@ -62,6 +72,7 @@ footer {
     background-color: #90C67C;
     border: 2px #328E6E solid;
     margin: 50px -10px -10px -10px;
+    font-size: 1rem;
 }
 
 footer ul {
@@ -89,6 +100,10 @@ footer .notices {
     margin-top: 10px;
 }
 
+.mb10 {
+    margin-bottom: 10px;
+}
+
 /* widescreen browser */
 @media (min-width: 600px) {
     .main-content {
@@ -105,6 +120,10 @@ footer .notices {
 
     .ml10-md {
         margin-left: 10px;
+    }
+
+    .blurb {
+        flex: 4 4;
     }
 }
 
@@ -129,6 +148,10 @@ footer .notices {
     .mx15p-sm {
         margin-left: 15%;
         margin-right: 15%
+    }
+
+    .hide-sm {
+        display: none;
     }
 }
 
