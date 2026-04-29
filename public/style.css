@@ -7,7 +7,7 @@ body {
 header {
     text-align: center;
     color: #328E6E;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -53,7 +53,7 @@ form {
     border-radius: 10px;
     border: 2px #328E6E solid;
     padding: 10px;
-    
+
     margin: auto;
 }
 
@@ -69,6 +69,10 @@ img {
 p {
     margin: auto 10px;
     text-align: center;
+}
+
+p.text-left {
+    text-align: left;
 }
 
 footer {
